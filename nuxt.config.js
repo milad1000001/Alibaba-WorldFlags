@@ -1,6 +1,5 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
+  ssr:false,
   head: {
     titleTemplate: '%s - flags',
     title: 'flags',
@@ -17,6 +16,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  
+  target: 'static',
 
   css: [
     '@/assets/styles/main.scss'
