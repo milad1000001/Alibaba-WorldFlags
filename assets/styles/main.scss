@@ -1,0 +1,14 @@
+a{
+    text-decoration:none !important;
+    color:$primary-black !important;
+}
+.Dark{
+    a{
+        color:$primary-white !important;
+    }
+    
+}
+.row,.col{
+    margin:0 !important;
+    padding:0 !important;
+  }

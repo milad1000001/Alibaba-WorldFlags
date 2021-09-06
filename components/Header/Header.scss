@@ -1,0 +1,36 @@
+.header{
+    box-shadow: 0px 0px 5px 1px #dddddd90;
+    z-index: 1;
+    &__container{
+        align-items: center;
+        min-height: 5vh;
+      }
+    }
+    .container{
+      &__title{
+        font:bold $SP-24 "tahoma"
+      }
+    }
+    .themeToggle{
+      &__container{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      &__icon{
+        transform: rotate(-45deg);
+      }
+    }
+.Dark{
+  .header{
+    box-shadow: 0px 0px 5px 1px #11111190;
+    background-color:$dark-header-background;
+    &__container{
+      color:$primary-white;
+      }
+    }
+    .mainContainer{
+      background-color:$dark-main-background;
+    }
+}
